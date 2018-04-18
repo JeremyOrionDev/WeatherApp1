@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp1", "WeatherApp1\WeatherApp1.csproj", "{AEC039FD-71EA-44E1-9D12-214EC80FA61C}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject1", "SharedProject1\SharedProject1.shproj", "{EE1C39D1-7478-4015-BCF8-FDAD794B97B3}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject1\SharedProject1.projitems*{aec039fd-71ea-44e1-9d12-214ec80fa61c}*SharedItemsImports = 4
+		SharedProject1\SharedProject1.projitems*{ee1c39d1-7478-4015-bcf8-fdad794b97b3}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
